@@ -1,0 +1,14 @@
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.transaction.rollback-on-commit-failure=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.generate-ddl=true
+spring.jpa.properties.hibernate.jdbc.batch_size=10
+spring.jpa.properties.hibernate.order_inserts=true
+spring.jpa.properties.hibernate.order_updates = true
+spring.jpa.properties.hibernate.jdbc.batch_versioned_data = true
+spring.jpa.properties.hibernate.generate_statistics=false
+spring.datasource.url=jdbc:mysql://${javadatabase.csxgqr9dgih9.ap-south-1.rds.amazonaws.com}:3306/$javadatabase?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=Tekam#1234
+server.port=8080
